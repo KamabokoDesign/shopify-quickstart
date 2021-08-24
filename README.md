@@ -1,2 +1,59 @@
-# shopify-quickstart
+# Shopify Quickstart
 Developing custom themes with shopify
+
+## Table of Contents
+
+
+## Step 1: Account Setup 
+1. Join the [Shopify Partner Program](https://www.shopify.com/partners)
+2. Log in to your Partner Dashboard.
+3. Click Stores.
+4. Click Add store.
+5. In the Store type section, select Development store.
+6. In the Login information section, enter a name for your store and a password that you can use to log in. By default, the email associated with your Partner Dashboard is used as the username, but you can change it if you want to.
+7. Optional: Enable a developer preview by checking Create a non-transferrable store that uses a developer preview. Select a developer preview version from the drop-down list.
+8. In the Store address section, enter your address.
+9. Optional: In the Store purpose section, select the reason why you're creating this development store.
+Click Save.
+
+## Step 2: "Local" Theme Development
+Install the Shopify CLI
+
+macOS via Homebrew
+```
+brew tap shopify/shopify
+brew install shopify-cli
+```
+## Step 3: Pull down the Dawn Starter Theme
+1. navigate to the working directory where you want to clone Dawn.
+2. Enter the following command:
+```
+shopify theme init
+```
+3. Name your theme
+4. Everything will get pulled down
+5. Make sure to cd into your new directory
+```
+code .
+```
+
+`shopify theme serve`
+
+If you run into a bug like below, take a look at our [Errors & Fixes](#errors) section.
+```
+✗ You are not authorized to edit themes on DOMAIN.
+Make sure you are a user of that store, and allowed to edit themes.
+```
+
+## Errors
+```
+✗ You are not authorized to edit themes on DOMAIN.
+Make sure you are a user of that store, and allowed to edit themes.
+```
+Had to create a new account, add it to the store, give it staff permissions. And sign in via that account.
+
+
+
+## Resources
+
+[2021 Youtube Follow Along](https://www.youtube.com/watch?v=3aMvc2z5CcY&ab_channel=DavidMartin-UXHACKS)
