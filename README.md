@@ -82,6 +82,8 @@ Here's a [YouTube tutorial](https://www.youtube.com/watch?v=zsyKQ9lT8tQ) to foll
 
 And the [official docs](https://shopify.dev/apps/checkout#ui-extensions) on Checkout UI Extensions & Beta Scripts
 
+[Step by Step tutorial](https://shopify.dev/apps/checkout/post-purchase/getting-started-post-purchase-extension) 
+
 ## Errors
 ```
 ✗ You are not authorized to edit themes on DOMAIN.
