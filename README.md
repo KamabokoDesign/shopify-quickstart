@@ -70,6 +70,11 @@ If you run into a bug like below, take a look at our [Errors & Fixes](#errors) s
 Make sure you are a user of that store, and allowed to edit themes.
 ```
 
+## Developing your theme
+
+Here's some theme commands for getting started
+https://shopify.dev/themes/tools/cli/theme-commands
+
 ## Errors
 ```
 ✗ You are not authorized to edit themes on DOMAIN.
