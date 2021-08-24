@@ -49,7 +49,20 @@ shopify theme init
 code .
 ```
 
-`shopify theme serve`
+## Step 4: Auth login into your Shopify store
+Login with the command
+```
+shopify login --store johns-apparel.myshopify.com
+```
+
+Where johns-apparel.myshopify.com is your development store URL.
+
+After you login make sure to keep the http://127.0.0.1/ window open in your chrome browser. 
+
+## Step 5: Serve your theme
+```
+shopify theme serve
+```
 
 If you run into a bug like below, take a look at our [Errors & Fixes](#errors) section.
 ```
