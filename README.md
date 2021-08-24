@@ -75,6 +75,13 @@ Make sure you are a user of that store, and allowed to edit themes.
 Here's some theme commands for getting started
 https://shopify.dev/themes/tools/cli/theme-commands
 
+## Want to customize the checkout process?
+Use cases are for products that are federally or locally regulated. i.e. fertilizer may have to have a warning near the item during checkout. 
+
+Here's a [YouTube tutorial](https://www.youtube.com/watch?v=zsyKQ9lT8tQ) to follow along with
+
+And the [official docs](https://shopify.dev/apps/checkout#ui-extensions) on Checkout UI Extensions & Beta Scripts
+
 ## Errors
 ```
 ✗ You are not authorized to edit themes on DOMAIN.
