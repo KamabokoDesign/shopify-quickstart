@@ -24,6 +24,18 @@ macOS via Homebrew
 brew tap shopify/shopify
 brew install shopify-cli
 ```
+
+windows via Ruby
+1. Make sure Ruby is installed
+```
+gem --version
+```
+2. If you don't have it installed, [download here](https://rubyinstaller.org/downloads/) and restart your computer to make the gem command available on terminal.
+3. Then to download Shopify
+```
+gem install shopify-cli
+```
+
 ## Step 3: Pull down the Dawn Starter Theme
 1. navigate to the working directory where you want to clone Dawn.
 2. Enter the following command:
