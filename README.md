@@ -77,6 +77,12 @@ Make sure you are a user of that store, and allowed to edit themes.
 ```
 Had to create a new account, add it to the store, give it staff permissions. And sign in via that account.
 
+```
+You cannot use gems with Shopify CLI
+```
+Had to run the command `gem install wdm`
+[Source](https://stackoverflow.com/questions/68376154/error-you-cannot-use-gems-with-shopify-cli)
+
 
 
 ## Resources
