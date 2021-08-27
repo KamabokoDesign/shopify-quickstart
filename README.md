@@ -2,6 +2,11 @@
 Developing custom themes with shopify
 
 ## Table of Contents
+1. [Account Setup](#step-1-account-setup)
+2. [Local Theme Dev](#step-2-local-theme-development)
+3. [Pull Down Dawn](#step-3-pull-down-the-dawn-starter-theme)
+4. [Shopify CLI](#step-4-auth-login-into-your-shopify-store)
+5. [Send your theme to Shopify](#step-5-serve-your-theme)
 
 
 ## Step 1: Account Setup 
