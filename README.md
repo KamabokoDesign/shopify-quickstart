@@ -89,6 +89,27 @@ And the [official docs](https://shopify.dev/apps/checkout#ui-extensions) on Chec
 
 [Step by Step tutorial](https://shopify.dev/apps/checkout/post-purchase/getting-started-post-purchase-extension) 
 
+## GraphQL Requests
+```
+	curl -X POST \
+	"https://<SHOP>.myshopify.com/admin/api/2019-10/graphql.json" \
+	-H "Content-Type: application/graphql" \
+	-H "X-Shopify-Access-Token: <ACCESS_TOKEN>" \
+	-d '
+	{
+		shop {
+			products(first: 5) {
+				edges {
+					node {
+						id
+						handle
+					}
+				}
+			}
+		}
+	}
+```
+
 ## Errors
 ```
 ✗ You are not authorized to edit themes on DOMAIN.
