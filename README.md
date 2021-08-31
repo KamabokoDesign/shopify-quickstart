@@ -79,6 +79,8 @@ Follow the [Errors & Fixes](#errors) for a solution.
 ## Step 6: View your local
 After you run the serve, an environment should show up on your local. It could be at http://127.0.0.1:9292. The ports may change depending on your configuration. 
 
+Now when you do changes do your theme, and hit save. Changes will hot-reload into the localhost port.
+
 ## Developing your theme
 
 Here's some theme commands for getting started
