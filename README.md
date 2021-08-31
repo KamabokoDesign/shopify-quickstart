@@ -76,6 +76,9 @@ Make sure you are a user of that store, and allowed to edit themes.
 ```
 Follow the [Errors & Fixes](#errors) for a solution.
 
+## Step 6: View your local
+After you run the serve, an environment should show up on your local. It could be at http://127.0.0.1:9292. The ports may change depending on your configuration. 
+
 ## Developing your theme
 
 Here's some theme commands for getting started
