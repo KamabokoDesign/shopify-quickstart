@@ -69,11 +69,12 @@ After you login make sure to keep the http://127.0.0.1/ window open in your chro
 shopify theme serve
 ```
 
-If you run into a bug like below, take a look at our [Errors & Fixes](#errors) section.
+If you run into a bug like below:
 ```
 ✗ You are not authorized to edit themes on DOMAIN.
 Make sure you are a user of that store, and allowed to edit themes.
 ```
+Follow the [Errors & Fixes](#errors) for a solution.
 
 ## Developing your theme
 
@@ -116,11 +117,14 @@ And the [official docs](https://shopify.dev/apps/checkout#ui-extensions) on Chec
 Make sure you are a user of that store, and allowed to edit themes.
 ```
 Had to create a new account, add it to the store, give it staff permissions. And sign in via that account.
+
 If that doesn't work. Follow the [Caution section here.](https://shopify.dev/themes/tools/cli/getting-started)
 
+```
 You can't use Shopify CLI with development stores if you only have Partner staff member access. If you want to use Shopify CLI to work on a development store, then you should be the store owner or create a staff account on the store.
 
 If you're the store owner, then you need to log in to the store directly using the store URL at least once (for example, using my-example-store.myshopify.com/admin) before you log in using Shopify CLI. Logging in to the Shopify admin directly connects the development store with your Shopify login.
+```
 
 ```
 You cannot use gems with Shopify CLI
