@@ -2,11 +2,16 @@
 Developing custom themes with shopify
 
 ## Table of Contents
+
+Developing a Theme
 1. [Account Setup](#step-1-account-setup)
 2. [Local Theme Dev](#step-2-local-theme-development)
 3. [Pull Down Dawn](#step-3-pull-down-the-dawn-starter-theme)
 4. [Shopify CLI](#step-4-auth-login-into-your-shopify-store)
 5. [Send your theme to Shopify](#step-5-serve-your-theme)
+
+Adding 3D Support
+1. [media.liquid]()
 
 
 ## Step 1: Account Setup 
@@ -94,6 +99,10 @@ Here's a [YouTube tutorial](https://www.youtube.com/watch?v=zsyKQ9lT8tQ) to foll
 And the [official docs](https://shopify.dev/apps/checkout#ui-extensions) on Checkout UI Extensions & Beta Scripts
 
 [Step by Step tutorial](https://shopify.dev/apps/checkout/post-purchase/getting-started-post-purchase-extension) 
+
+## Want to add 3d support?
+
+[Media.liquid](https://shopify.dev/themes/product-merchandising/media/support-media)
 
 ## GraphQL Requests
 ```
