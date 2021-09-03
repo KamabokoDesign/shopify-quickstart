@@ -64,6 +64,10 @@ Login with the command
 ```
 shopify login --store johns-apparel.myshopify.com
 ```
+Or if you're getting the login error do
+```
+shopify login --store=johns-apparel.myshopify.com
+```
 
 Where johns-apparel.myshopify.com is your development store URL.
 
