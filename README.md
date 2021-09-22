@@ -100,6 +100,15 @@ If you want to overwrite a theme on current store
 shopify theme push
 ```
 
+Changing the name of your theme, you'll find it in
+
+config > settings_schema.json
+```
+"theme_name"
+"theme_version"
+"theme_author"
+```
+
 ## Want to customize the checkout process?
 Use cases are for products that are federally or locally regulated. i.e. fertilizer may have to have a warning near the item during checkout. 
 
