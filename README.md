@@ -99,6 +99,10 @@ If you want to overwrite a theme on current store
 ```
 shopify theme push
 ```
+If you want to republish i.e. publish changes to a theme's name do
+```
+shopify theme publish
+```
 
 Changing the name of your theme, you'll find it in
 
