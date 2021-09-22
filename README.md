@@ -95,6 +95,11 @@ Now when you do changes do your theme, and hit save. Changes will hot-reload int
 Here's some theme commands for getting started
 https://shopify.dev/themes/tools/cli/theme-commands
 
+If you want to overwrite a theme on current store 
+```
+shopify theme push
+```
+
 ## Want to customize the checkout process?
 Use cases are for products that are federally or locally regulated. i.e. fertilizer may have to have a warning near the item during checkout. 
 
