@@ -116,63 +116,87 @@ config > settings_schema.json
 ## Essential Files
 
 404
+```
 1. sections > main-404.liquid     //template for 404 pages
 2. css > section-main-404.css     //accompanying css
+```
 
 Article
+```
 1. sections > main-article.liquid
 2. css > section-blog-post.css
 3. templates > article.json		  //REQUIRED THEME FILE
+```
 
 Blog
+```
 1. sections > 
 2. css >
 3. templates >
+```
 
 Cart
+```
 1. sections > 
 2. css >
 3. templates >
+```
 
 Collection
+```
 1. sections > 
 2. css >
 3. templates >
+```
 
 Gift_Card
+```
 1. sections > 
 2. css >
 3. templates >
+```
 
 List-Collections
+```
 1. sections > 
 2. css >
 3. templates >
+```
 
 Page.Contact
+```
 1. sections > 
 2. css >
 3. templates >
+```
 
 Page
+```
 1. main-page.liquid               //template used for non-shop pages (contact, faq, etc.)
 2. section-main-page.css          //accompanying css
 3. templates > page.json          //REQUIRED 
+```
 
 Password
+```
 1. sections > 
 2. css >
 3. templates >
+```
 
 Product
+```
 1. sections > 
 2. css >
 3. templates >
+```
 
 Search
+```
 1. sections > 
 2. css >
 3. templates >
+```
 
 
 ## Want to customize the checkout process?
