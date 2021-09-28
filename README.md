@@ -114,6 +114,7 @@ config > settings_schema.json
 ```
 
 ## Essential Files
+[Official Docs](https://shopify.dev/themes/store/requirements)
 
 404
 ```
@@ -130,21 +131,21 @@ Article
 
 Blog
 ```
-1. sections > 
-2. css >
-3. templates >
+1. sections > main-blog.liquid
+2. css > component-article-card.css, component-card.css, section-main-blog.css
+3. templates > blog.json
 ```
 
 Cart
 ```
-1. sections > 
+1. sections > cart-items, cart-footer, featured-products
 2. css >
-3. templates >
+3. templates > cart.json
 ```
 
 Collection
 ```
-1. sections > 
+1. sections > banner, product-grid
 2. css >
 3. templates >
 ```
