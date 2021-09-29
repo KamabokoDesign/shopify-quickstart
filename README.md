@@ -113,7 +113,10 @@ config > settings_schema.json
 "theme_author"
 ```
 
-## Essential Files
+## Assets Folder 
+[Why you can't create subdirectories as of 2.0](https://community.shopify.com/c/technical-q-a/a-folder-in-assets-breaks-shopify-theme-serve/m-p/1328291)
+
+## Templates 
 [Official Docs](https://shopify.dev/themes/store/requirements)
 
 404
