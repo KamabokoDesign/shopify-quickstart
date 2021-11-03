@@ -164,6 +164,9 @@ To add another one you can add it in the `presets`:
 
 [Source](https://www.webibazaar.com/blog/tutotial/how-to-change-theme-colors-of-your-online-store-shopify-themes/)
 
+## Changing the Font
+[Source](https://shopify.dev/themes/architecture/settings/fonts#available-fonts)
+
 
 ## Assets Folder 
 [Why you can't create subdirectories as of 2.0](https://community.shopify.com/c/technical-q-a/a-folder-in-assets-breaks-shopify-theme-serve/m-p/1328291)
