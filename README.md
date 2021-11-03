@@ -90,6 +90,8 @@ After you run the serve, an environment should show up on your local. It could b
 
 Now when you do changes do your theme, and hit save. Changes will hot-reload into the localhost port.
 
+<br/>
+
 ## Developing your theme
 
 Here's some theme commands for getting started
@@ -104,7 +106,9 @@ If you want to republish i.e. publish changes to a theme's name do
 shopify theme publish
 ```
 
-Changing the name of your theme, you'll find it in
+</br>
+
+## Changing the name of your theme, you'll find it in
 
 config > settings_schema.json
 ```
@@ -112,6 +116,52 @@ config > settings_schema.json
 "theme_version"
 "theme_author"
 ```
+
+## Adding the Color Themes
+
+You can create different color themes @ this file:
+```
+settings_data.json
+```
+
+To add another one you can add it in the `presets`: 
+
+```
+"Craft": {
+  "colors_solid_button_labels": "#EFECEC",
+  "colors_accent_1": "#2A332F",
+  "colors_accent_2": "#476154",
+  "colors_text": "#1C1A1A",
+  "colors_outline_button_labels": "#7B8382",
+  "colors_background_1": "#EFECEC",
+  "colors_background_2": "#C1BCAE",
+  "type_header_font": "americana_n4",
+  "type_body_font": "quattrocento_sans_n4",
+  "sections": {
+     "footer": {
+      "type": "footer",
+      "settings": {
+        "color_scheme": "accent-1"
+       },
+      "blocks": {
+        "menu": {
+        "type": "link_list"
+         },
+         "text": {
+           "type": "text"
+          }
+       },
+       "block_order": [
+         "menu",
+         "text"
+       ]
+   }
+   }
+}
+```
+
+[Source](https://www.webibazaar.com/blog/tutotial/how-to-change-theme-colors-of-your-online-store-shopify-themes/)
+
 
 ## Assets Folder 
 [Why you can't create subdirectories as of 2.0](https://community.shopify.com/c/technical-q-a/a-folder-in-assets-breaks-shopify-theme-serve/m-p/1328291)
