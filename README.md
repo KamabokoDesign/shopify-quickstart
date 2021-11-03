@@ -168,6 +168,11 @@ To add another one you can add it in the `presets`:
 [Source](https://shopify.dev/themes/architecture/settings/fonts#available-fonts)
 
 
+## Where to put svgs?
+
+In the snippets folder! You'll name your file like `icon-brandlogo.liquid` and just drop in the <svg> data there.
+
+
 ## Assets Folder 
 [Why you can't create subdirectories as of 2.0](https://community.shopify.com/c/technical-q-a/a-folder-in-assets-breaks-shopify-theme-serve/m-p/1328291)
 
