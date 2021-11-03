@@ -242,9 +242,21 @@ And the [official docs](https://shopify.dev/apps/checkout#ui-extensions) on Chec
 ✗ You are not authorized to edit themes on DOMAIN.
 Make sure you are a user of that store, and allowed to edit themes.
 ```
-Had to create a new account, add it to the store, give it staff permissions. And sign in via that account.
+1. Had to create a new account, add it to the store, give it staff permissions. And sign in via that account.
+2. If that doesn't work. Follow the [Caution section here.](https://shopify.dev/themes/tools/cli/getting-started)
 
-If that doesn't work. Follow the [Caution section here.](https://shopify.dev/themes/tools/cli/getting-started)
+
+
+Basically just do a 
+```
+shopify logout
+```
+and logout from the store on the Shopify Admin. 
+
+Then re-log into the /admin in the Shopify web view. 
+
+Do the shopify login in your terminal one more time, it should work.
+
 
 ```
 You can't use Shopify CLI with development stores if you only have Partner staff member access. If you want to use Shopify CLI to work on a development store, then you should be the store owner or create a staff account on the store.
