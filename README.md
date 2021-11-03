@@ -160,6 +160,8 @@ To add another one you can add it in the `presets`:
 }
 ```
 
+[This is how you change the color in the Shopify Admin](https://help.shopify.com/en/manual/online-store/themes/os/theme-structure/theme-settings?shpxid=e7ae3a7a-5D89-4F1C-6ACD-0A0105E78D90#change-theme-styles)
+
 [Source](https://www.webibazaar.com/blog/tutotial/how-to-change-theme-colors-of-your-online-store-shopify-themes/)
 
 
