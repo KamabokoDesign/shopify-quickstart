@@ -330,6 +330,9 @@ You cannot use gems with Shopify CLI
 Had to run the command `gem install wdm`
 [Source](https://stackoverflow.com/questions/68376154/error-you-cannot-use-gems-with-shopify-cli)
 
+## Should I Use GraphQL or REST?
+GraphQL is faster :) it only fetches what it needs. If you only want product.id and product.image, it'll just give you those 2 properties. On the other hand, rest will give you the whole product object, with data like product.id, product.image, product.metafields, and product.variants.
+
 
 
 ## Resources
