@@ -347,6 +347,21 @@ mutation {
     }
   }
 ```
+```
+mutation setMetafield($metafields: [MetafieldsSetInput!]!) {
+  metafieldsSet(metafields:$metafields){
+    metafields{
+      id
+      key
+      value
+    }
+    userErrors{
+      code
+      message
+    }
+  }
+}
+```
 [Here's the source for this capability](https://shopify.dev/api/examples/customer-data)
 
 
