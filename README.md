@@ -336,6 +336,20 @@ GraphQL is faster :) it only fetches what it needs. If you only want product.id 
 [Playground 2 Test GraphQL Requests](https://shopify.dev/apps/tools/graphiql-admin-api)
 [A good video overview](https://www.youtube.com/watch?v=yY2h4VNlGB0&t=299s)
 
+	
+👆 Generally I use GraphQL to create features like "Favorites" / "Wishlists" / "Saved Products". Here's an example GraphQL request.
+```
+mutation {
+  customerUpdate(input: {id: "gid://shopify/Customer/958361468984", tags: ["Test tag, New tag"]}) {
+    customer {
+      id
+      tags
+    }
+  }
+```
+[Here's the source for this capability](https://shopify.dev/api/examples/customer-data)
+
+
 
 ## Resources
 
