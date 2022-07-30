@@ -333,6 +333,8 @@ Had to run the command `gem install wdm`
 ## Should I Use GraphQL or REST?
 GraphQL is faster :) it only fetches what it needs. If you only want product.id and product.image, it'll just give you those 2 properties. On the other hand, rest will give you the whole product object, with data like product.id, product.image, product.metafields, and product.variants.
 
+[Playground 2 Test GraphQL Requests](https://shopify.dev/apps/tools/graphiql-admin-api)
+[A good video overview](https://www.youtube.com/watch?v=yY2h4VNlGB0&t=299s)
 
 
 ## Resources
