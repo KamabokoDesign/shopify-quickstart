@@ -364,7 +364,11 @@ mutation setMetafield($metafields: [MetafieldsSetInput!]!) {
 ```
 [Here's the source for this capability](https://shopify.dev/api/examples/customer-data)
 
-
+## Conditional Rendering for Logged In Customers
+```
+{% if customer %}
+{% endif %}
+```
 
 ## Resources
 
